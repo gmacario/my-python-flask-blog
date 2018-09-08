@@ -1,0 +1,3 @@
+# File: manage.py
+
+# EOF
