@@ -22,7 +22,11 @@ RUN pip3 install -r /requirements.txt
 # ENTRYPOINT ["/entrypoint.sh"]
 # CMD ["/usr/bin/supervisord"]
 
+# FIXME: The following steps are not needed for the build environment
 COPY manage.py /
+COPY blog/. /blog
+
+EXPOSE 5000
 
 CMD ["python3", "manage.py", "runserver"]
 
