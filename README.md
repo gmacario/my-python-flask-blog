@@ -42,7 +42,7 @@ TODO
 
 ### License and Copyright
 
-my-python-flask-blog is an open source project - for details please see the [LICENSE](LICENSE) file.
+my-python-flask-blog is an open source project - for details please see the [LICENSE](LICENSE.md) file.
 
 Copyright (C) 2018, [Gianpaolo Macario](https://gmacario.github.io/)
 
