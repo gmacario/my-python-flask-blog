@@ -9,8 +9,8 @@ RUN apt-get -q update && \
 
 # RUN pip3 install uwsgi
 
-# COPY ./requirements.txt /requirements.txt
-# RUN pip3 install -r /requirements.txt
+COPY ./requirements.txt /requirements.txt
+RUN pip3 install -r /requirements.txt
 
 # COPY ./nginx.conf /etc/nginx/sites-enabled/default
 # COPY ./ /server
