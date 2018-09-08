@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'TODO: Build'
+        echo 'INFO: Build'
         sh '''#/bin/bash
 
 # DEBUG
@@ -27,6 +27,11 @@ which docker-compose || true
 # docker-compose build --pull
 
 # EOF'''
+      }
+    }
+    stage('Test') {
+      steps {
+        sh 'python3 manage.py server'
       }
     }
   }
