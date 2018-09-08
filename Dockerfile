@@ -24,6 +24,6 @@ RUN pip3 install -r /requirements.txt
 
 COPY manage.py /
 
-CMD ["python", "manage.py", "runserver"]
+CMD ["python3", "manage.py", "runserver"]
 
 # EOF
