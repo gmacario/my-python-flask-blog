@@ -31,7 +31,7 @@ which docker-compose || true
     }
     stage('Test') {
       steps {
-        sh 'python3 manage.py server'
+        sh 'python3 manage.py shell'
       }
     }
   }
