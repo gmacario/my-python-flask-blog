@@ -1,6 +1,6 @@
 # my-python-flask-blog
 
-Based on the blog post "[Scriviamo un blog in Python e Flask](https://ludusrusso.cc/2016/12/27/tutorial-flask/)" by [Ludus Russo](https://ludusrusso.cc/) who in turn took ispiration from [Miguel Grindberg](https://blog.miguelgrinberg.com/).
+Based on the blog post "[Scriviamo un blog in Python e Flask](https://ludusrusso.cc/2016/12/27/tutorial-flask/)" by [Ludus Russo](https://ludusrusso.cc/) who in turn took ispiration from [The Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) by [Miguel Grindberg](https://blog.miguelgrinberg.com/).
 
 ### Usage Examples
 
