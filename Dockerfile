@@ -28,6 +28,6 @@ COPY blog/. /blog
 
 EXPOSE 5000
 
-CMD ["python3", "manage.py", "runserver"]
+CMD ["python3", "manage.py", "runserver", "-h", "0.0.0.0"]
 
 # EOF
